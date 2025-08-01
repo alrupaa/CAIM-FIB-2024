@@ -1,0 +1,109 @@
+47,Seven (a.k.a. Se7en) (1995),Mystery|Thriller
+594,Snow White and the Seven Dwarfs (1937),Animation|Children|Drama|Fantasy|Musical
+81782,Unstoppable (2010),Action|Drama|Thriller
+4886,"Monsters, Inc. (2001)",Adventure|Animation|Children|Comedy|Fantasy
+48780,"Prestige, The (2006)",Drama|Mystery|Sci-Fi|Thriller
+
+
+Thriller: 3
+Mystery:2
+Animation: 2
+Children: 2
+Drama: 3
+Fantasy: 2
+Musical: 1
+Action: 1
+Adventure: 1
+Comedy: 1
+Sci-Fi: 1
+
+
+
+k = 10
+ Recomendation :Movie:Saint, The (1997) (Genre: Action|Romance|Sci-Fi|Thriller)
+ Recomendation :Movie:Calendar Girl (1993) (Genre: Comedy|Drama)
+ Recomendation :Movie:Stand by Me (1986) (Genre: Adventure|Drama)
+ Recomendation :Movie:Lock, Stock & Two Smoking Barrels (1998) (Genre: Comedy|Crime|Thriller)
+ Recomendation :Movie:William Shakespeare's A Midsummer Night's Dream (1999) (Genre: Comedy|Fantasy)
+
+k = 20
+ Recomendation :Movie:Saint, The (1997) (Genre: Action|Romance|Sci-Fi|Thriller)
+ Recomendation :Movie:3-Iron (Bin-jip) (2004) (Genre: Drama|Romance)
+ Recomendation :Movie:Calendar Girl (1993) (Genre: Comedy|Drama)
+ Recomendation :Movie:Stand by Me (1986) (Genre: Adventure|Drama)
+ Recomendation :Movie:Lock, Stock & Two Smoking Barrels (1998) (Genre: Comedy|Crime|Thriller)
+
+k = 100
+ Recomendation :Movie:Hedwig and the Angry Inch (2000) (Genre: Comedy|Drama|Musical)
+ Recomendation :Movie:Mighty Wind, A (2003) (Genre: Comedy|Musical)
+ Recomendation :Movie:Hours, The (2002) (Genre: Drama|Romance)
+ Recomendation :Movie:Reign Over Me (2007) (Genre: Drama)
+ Recomendation :Movie:I Origins (2014) (Genre: Drama|Sci-Fi)
+
+
+
+
+
+
+
+COMPARACIÓN con [123, 467, 607] con k = 10
+Movie: 1479, Score: 5.988888888888889
+Movie: 30803, Score: 5.844444444444445
+Movie: 430, Score: 5.794265232974911
+Movie: 1259, Score: 5.794265232974911
+Movie: 2542, Score: 5.794265232974911
+
+Top 5 recomendaciones del Naive Recommender:
+Movie: 99, Score: 5.0
+Movie: 64501, Score: 5.0
+Movie: 1349, Score: 5.0
+Movie: 86721, Score: 5.0
+Movie: 86668, Score: 5.0
+Top 5 recomendaciones del User-Based Recommender:
+Movie: 1916, Score: 6.256578947368421
+Movie: 3266, Score: 6.256578947368421
+Movie: 3676, Score: 6.256578947368421
+Movie: 6818, Score: 6.256578947368421
+Movie: 8477, Score: 6.256578947368421
+
+Top 5 recomendaciones del Naive Recommender:
+Movie: 99, Score: 5.0
+Movie: 64501, Score: 5.0
+Movie: 1349, Score: 5.0
+Movie: 86721, Score: 5.0
+Movie: 86668, Score: 5.0
+Top 5 recomendaciones del User-Based Recommender:
+Movie: 174053, Score: 5.070111095285572
+Movie: 2125, Score: 5.028934624697337
+Movie: 33669, Score: 5.028934624697337
+Movie: 56949, Score: 5.028934624697337
+Movie: 1233, Score: 4.96226795803067
+
+Top 5 recomendaciones del Naive Recommender:
+Movie: 99, Score: 5.0
+Movie: 64501, Score: 5.0
+Movie: 1349, Score: 5.0
+Movie: 86721, Score: 5.0
+Movie: 86668, Score: 5.0
+User 123: Rec1 Similarity: 0.6394914433716592, Rec2 Similarity: 0.4225072741317182
+User 467: Rec1 Similarity: 0.7654016697441132, Rec2 Similarity: 0.7593894812410519
+User 607: Rec1 Similarity: 0.7953036546224644, Rec2 Similarity: 0.5817744738827395
+
+
+CON K = 5
+User 123: Rec1 Similarity: 0.6963106238227914, Rec2 Similarity: 0.3517632353407243
+User 467: Rec1 Similarity: 0.808158687660548, Rec2 Similarity: 0.5551361100027009
+User 607: Rec1 Similarity: 0.8498365855987974, Rec2 Similarity: 0.28306925853614895
+
+
+CON K = 5 pero mucha gente
+target_users_idx = [30, 59, 123, 467, 502, 607]
+User 30: Rec1 Similarity: 0.3464511640778669, Rec2 Similarity: 0.13055824196677335
+User 59: Rec1 Similarity: 0.6761234037828132, Rec2 Similarity: 0.4391550328268399
+User 123: Rec1 Similarity: 0.6963106238227912, Rec2 Similarity: 0.3517632353407243
+User 467: Rec1 Similarity: 0.808158687660548, Rec2 Similarity: 0.5551361100027008
+User 502: Rec1 Similarity: 0.40009880202694825, Rec2 Similarity: 0.4308202184276646
+User 607: Rec1 Similarity: 0.8498365855987974, Rec2 Similarity: 0.28306925853614895
+
+502 tiene 34 películas (29-5)
+30  tiene 34 películas (29-5)
